@@ -1,11 +1,13 @@
-Here’s a high-quality, impactful `README.md` for your **Website Summarizer using Hugging Face + LangChain**, written to showcase **usefulness**, **technical depth**, and your **personal learning journey**. It’s clean, professional, and tailored to impress recruiters, mentors, and GitHub visitors:
+Click below for the demo!!!!!!!!!!!!!!!!!!!!
 
----
+[![Watch Demo](https://img.youtube.com/vi/tcF__KTex-s/hqdefault.jpg)](https://www.youtube.com/watch?v=tcF__KTex-s&list=PLe-YIIlt-fbO3hXVoaPK56ikWRT0A9Gzr&index=2)
 
-```markdown
+
 # 📰 Website Content Summarizer using LangChain + Hugging Face 🤖
 
 This is a **lightweight Streamlit web app** that extracts and summarizes any public website’s content using **LangChain**, the **Hugging Face Inference API**, and **Mistral-7B**.
+
+---
 
 ## ✨ Project Impact
 
@@ -17,37 +19,35 @@ In a world overflowing with information, this tool helps users **save time** by 
 
 ## ⚙️ How It Works
 
-1. Enter a public URL (like a blog post or news article)
-2. The app scrapes its readable content using `UnstructuredURLLoader`
-3. Sends it to the **Mistral-7B-Instruct** model via Hugging Face
-4. Summarizes the text using `LangChain`'s summarize chain
+1. Enter a public URL (like a blog post or news article)  
+2. The app scrapes its readable content using `UnstructuredURLLoader`  
+3. Sends it to the **Mistral-7B-Instruct** model via Hugging Face Inference API  
+4. Summarizes the text using `LangChain`'s summarize chain  
 5. Displays a clean, focused summary in seconds ⚡
 
 ---
 
 ## 🧠 Tech Stack
 
-| Tool / Library         | Purpose                                |
-|------------------------|----------------------------------------|
-| 🦜 LangChain           | Summarization pipeline and prompt      |
-| 🤗 Hugging Face Hub    | Hosting `Mistral-7B-Instruct` model    |
-| 📰 Unstructured         | Extracts readable content from webpages|
-| ✅ Validators           | Ensures input URL is valid             |
-| 🧪 Streamlit            | Beautiful, interactive frontend        |
+| Tool / Library         | Purpose                                 |
+|------------------------|-----------------------------------------|
+| 🦜 LangChain           | Summarization pipeline and prompt       |
+| 🤗 Hugging Face Hub    | Hosting `Mistral-7B-Instruct` model     |
+| 📰 Unstructured         | Extracts readable content from webpages |
+| ✅ Validators           | Ensures input URL is valid              |
+| 🧪 Streamlit            | Beautiful, interactive frontend         |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-
 📂 summarizer-huggingface/
 ├── app.py             # Streamlit application
-├── .env               # Hugging Face token (not pushed)
+├── .env               # Hugging Face token (not committed)
 ├── requirements.txt   # All dependencies
 └── README.md
-
-````
+```
 
 ---
 
@@ -60,28 +60,28 @@ In a world overflowing with information, this tool helps users **save time** by 
 
 ## 📦 Installation & Setup
 
-### 1. Clone the Repo
+### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/summarizer-huggingface.git
-cd summarizer-huggingface
-````
+git clone https://github.com/jatinydav557/summarizer-hugging-face-langchain.git
+cd summarizer-hugging-face-langchain
+```
 
-### 2. Create Virtual Environment
+### 2️⃣ Create Virtual Environment
 
 ```bash
 uv venv venv
-source venv/bin/activate
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 uv pip install -r requirements.txt
 ```
 
-### 3. Add `.env` file
+### 3️⃣ Add `.env` file
 
 ```
 HF_TOKEN=your_huggingface_api_key
 ```
 
-Or paste it manually in the sidebar input field during runtime.
+Or paste the Hugging Face token directly into the sidebar when prompted.
 
 ---
 
@@ -90,6 +90,8 @@ Or paste it manually in the sidebar input field during runtime.
 ```bash
 streamlit run app.py
 ```
+
+Open your browser at: [http://localhost:8501](http://localhost:8501)
 
 ---
 
@@ -104,46 +106,47 @@ validators
 unstructured  # required to properly parse website HTML
 ```
 
-> ⚠️ **Note**: The `unstructured` package is essential — make sure it installs correctly. If errors occur, try:
+> ⚠️ **Note**: The `unstructured` package is essential. If it gives errors, try:
 > `pip install "unstructured[all-docs]"`
 
 ---
 
 ## 👨‍🎓 About Me
 
-I’m a **self-taught AI enthusiast** in my **MCA final year**, building tools that solve real problems and showcase my skills.
-This summarizer is part of a **series of 20+ LLM-powered projects** I’m working on to **land a job** and **break into AI product engineering**.
+Hi, I'm **Jatin Yadav**, a final-year **MCA student** and passionate **Machine Learning Engineer**.  
+I'm building **20+ real-world GenAI projects** to learn faster, contribute meaningfully, and land a great AI role.
 
-> I don’t just follow tutorials — I build and deploy useful tools from scratch.
-> This project is proof that a simple idea, when executed well, can deliver real value.
+> I don’t just follow tutorials — I build and deploy tools that solve real problems.
+
+This summarizer app is a great example of how **LLMs can simplify knowledge digestion**.
+
+📌 Open to roles in:
+- 🧠 LLM / GenAI Engineering
+- 🤖 NLP / RAG Systems
+- ⚙️ MLOps & AI Tools
 
 ---
 
 ## 🧭 What's Next?
 
-* [ ] Add multi-language support for websites
-* [ ] Option to summarize YouTube + Web from one interface
-* [ ] Deploy to Hugging Face Spaces or Streamlit Cloud
+* [ ] Add multi-language support for websites  
+* [ ] Merge with YouTube summarizer (multi-source RAG)  
+* [ ] Deploy to Hugging Face Spaces / Streamlit Cloud
 
 ---
 
-## 📢 Let’s Connect!
+## 📢 Let’s Connect
 
-* 📌 [LinkedIn](https://linkedin.com/in/yourusername)
-* 🧰 [Portfolio](https://your-portfolio-link)
-* 🖥️ [GitHub](https://github.com/yourusername)
-
-If you found this project helpful or inspiring, consider giving it a ⭐!
+- 🔗 [LinkedIn](https://www.linkedin.com/in/jatin557)  
+- 💼 [GitHub](https://github.com/jatinydav557)  
+- 📺 [YouTube Projects](https://www.youtube.com/@jatinML/playlists)  
+- 📧 Email: jatinydav557@gmail.com  
+- 📱 +91-7340386035
 
 ---
 
-> "Summarization isn't just about compressing text. It's about saving lives in a world full of information overload."
+⭐ If you found this helpful, **give it a star** and share it with someone who reads a lot!
+
+> "Summarization isn't just about compressing text. It's about saving lives in a world full of information overload."  
 > – *You, the AI builder*
 
-```
-
----
-
-Let me know if you want a **banner image**, **badges**, or a **deployable version** of this.  
-Your work is seriously practical and recruiter-ready. Keep going — these are real resume boosters!
-```
