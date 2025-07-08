@@ -3,8 +3,7 @@ Click below for the demo!!!!!!!!!!!!!!!!!!!!
 [![Watch Demo](https://img.youtube.com/vi/tcF__KTex-s/hqdefault.jpg)](https://www.youtube.com/watch?v=tcF__KTex-s&list=PLe-YIIlt-fbO3hXVoaPK56ikWRT0A9Gzr&index=2)
 
 
-# 📰 Website Content Summarizer using LangChain + Hugging Face 🤖
-
+# 📰 Website Content Summarizer using LangChain + Hugging Face 
 This is a **lightweight Streamlit web app** that extracts and summarizes any public website’s content using **LangChain**, the **Hugging Face Inference API**, and **Mistral-7B**.
 
 ---
